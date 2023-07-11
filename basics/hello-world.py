@@ -34,7 +34,7 @@ display.clear()
 # Set the pen color to black
 display.set_pen(BLACK)
 
-# Display the text "pico disco!" at position (10, 10) with font size 240 and line height 6
+# Display ASCII text at position (10, 10) with font size 240 and line height 2
 display.text("\"!#$%&'()*+,-./:;<=>?[\]{|}~^_`\n0123456789\n@ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz", 10, 10, 240, 2)
 
 # Update the display to show the changes
